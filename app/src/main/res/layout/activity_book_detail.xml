@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookDetailActivity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_mh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Màn hình"
+        android:textColor="@color/black"
+        android:padding="14dp"
+        />
+
+
+    <GridLayout
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:alignmentMode="alignMargins"
+        android:columnWidth="100dp"
+        android:columnCount="6"
+        android:columnOrderPreserved="false"
+        android:padding="19dp"
+        android:rowCount="6"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+            <TextView
+                android:id="@+id/tv_cA01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:padding="14dp"
+                android:text="A01"
+                android:textColor="@color/black" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cA02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="left|top"
+                android:padding="14dp"
+                android:text="A02"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+            <TextView
+                android:id="@+id/tv_cA03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="03"
+                android:layout_gravity="left|top"
+                android:padding="14dp"
+                android:text="A03"
+                android:textColor="@color/black" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cA04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="A04"
+                android:textColor="@color/black"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cA05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="A05"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cA06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="A06"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cB01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:padding="14dp"
+                android:text="B01"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cB02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="B02"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cB03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="B03"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cB04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="B04"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cB05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="B05"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cB06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="B06"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cC01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="C01"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cC02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="C02"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cC03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="C03"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cC04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="C04"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cC05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="C05"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cC06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="C06"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cD01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="D01"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cD02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="D02"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cD03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="D03"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cD04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="D04"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cD05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="B06"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cD06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="D06"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cE01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="E01"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cE02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="E02"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cE03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="E03"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cE04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="E04"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cE05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="E05"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="#B366FF">
+
+            <TextView
+                android:id="@+id/tv_cE06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="E06"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+    <RelativeLayout
+        android:id="@+id/tv_rL"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/total"
+        >
+        <TextView
+            android:id="@+id/tv_hourChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20:00"
+            android:textColor="@color/black"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/total"/>
+        <TextView
+            android:id="@+id/tv_hourChoose2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20:00"
+            android:textColor="@color/black"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="155dp"
+            android:background="@drawable/total"/>
+        <TextView
+            android:id="@+id/tv_hourChoose3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20:00"
+            android:textColor="@color/black"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="290dp"
+            android:background="@drawable/total"/>
+        <TextView
+            android:id="@+id/tv_huhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vé: "
+            android:textColor="@color/black"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:id="@+id/tv_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textColor="@color/black"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="100dp"
+            />
+        <TextView
+            android:id="@+id/tv_hihi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá: "
+            android:textColor="@color/black"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:id="@+id/tv_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textColor="@color/black"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="100dp"
+            />
+        <Button
+            android:id="@+id/buttonTt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thanh toán"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="250dp"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
